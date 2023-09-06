@@ -1,32 +1,38 @@
 # App
 
-GymPass style app.
+## Introdução
+
+Faaala Dev,
+
+Nesse desafio você reforçará de forma prática os **conceitos** que aprendemos nesse módulo.
+
+Como se trata de um desafio, ele necessita de alguns conhecimentos além dos abordados nesse módulo, então é importante ter autonomia para conseguir pesquisar essas coisas caso não saiba como resolver. Por isso, lembre-se, tenha calma e acredite no seu processo.
+
+O aprendizado daqui é muito importante e com certeza você conseguirá sair com muito conhecimento bacana 💜
+
+Nesse desafio desenvolveremos uma API para a adoção de animais, a FindAFriend API, utilizando SOLID e testes.
 
 ## RFs (Requisitos funcionais)
 
-- [x] Deve ser possível se cadastrar;
-- [x] Deve ser possível se autenticar;
-- [x] Deve ser possível obter o perfil de um usuario logado;
-- [x] Deve ser possível obter o numero de check-ins realizados pelo usuário logado;
-- [x] Deve ser possível o usuario obter seu historico de check-ins;
-- [x] Deve ser possível o usuario buscar academias proximas;
-- [x] Deve ser possível o usuario buscar academias pelo nome;
-- [x] Deve ser possível o usuario realizar check-in em uma academia;
-- [x] Deve ser possível validar o check-in de um usuário;
-- [x] Deve ser possível cadastrar uma academia;
+- [ ] Deve ser possível cadastrar um pet
+- [ ] Deve ser possível listar todos os pets disponíveis para adoção em uma cidade
+- [ ] Deve ser possível filtrar pets por suas características
+- [ ] Deve ser possível visualizar detalhes de um pet para adoção
+- [ ] Deve ser possível se cadastrar como uma ORG
+- [ ] Deve ser possível realizar login como uma ORG
 
 ## RNs (Regras de negócio)
 
-- [x] O usuário não deve poder se cadastrar com um e-mail duplicado;
-- [x] O usuário não pode facer 2 check-ins no mesmo dia;
-- [x] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
-- [ ] O check-in só pode ser validade até 20 minutos após criado;
-- [ ] O check-in só pode ser validado por administradores;
-- [ ] A academia só pode ser cadastrada por administradores;
+- [ ] Para listar os pets, obrigatoriamente precisamos informar a cidade
+- [ ] Uma ORG precisa ter um endereço e um número de WhatsApp
+- [ ] Um pet deve estar ligado a uma ORG
+- [ ] O usuário que quer adotar, entrará em contato com a ORG via WhatsApp
+- [ ] Todos os filtros, além da cidade, são opcionais
+- [ ] Para uma ORG acessar a aplicação como admin, ela precisa estar logada
 
 # RNFs (Requisitos não-funcionais)
 
-- [x] A senha do usuário precisa estar criptografada;
-- [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
-- [x] Todas listas de dados precisam estar paginadas com 20 itens por página;
+- [ ] A senha do usuário precisa estar criptografada;
+- [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
+- [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
