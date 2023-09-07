@@ -32,7 +32,7 @@ export class InMemoryOrganizationsRepository implements OrganizationsRepository 
       org_name: data.org_name,
       admin_name: data.admin_name,
       email: data.email,
-      password_hash: await hash('123456', 6),
+      password_hash: await hash('123456', 8),
       cep: data.cep,
       address_name: data.admin_name,
       phone: '000000000',

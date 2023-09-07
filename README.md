@@ -6,7 +6,7 @@ Faaala Dev,
 
 Nesse desafio você reforçará de forma prática os **conceitos** que aprendemos nesse módulo.
 
-Como se trata de um desafio, ele necessita de alguns conhecimentos além dos abordados nesse módulo, então é importante ter autonomia para conseguir pesquisar essas coisas caso não saiba como resolver. Por isso, lembre-se, tenha calma e acredite no seu processo.
+Como se trata de um desafio, ele necessita de alguns conhecimentos além dos abordados nesse módulo, então é importante ter autonomia para conseguir pesquisar essas coisas caso não saiba como resolver. Por isso, lembre-se, **tenha calma e acredite no seu processo**.
 
 O aprendizado daqui é muito importante e com certeza você conseguirá sair com muito conhecimento bacana 💜
 
@@ -14,11 +14,11 @@ Nesse desafio desenvolveremos uma API para a adoção de animais, a FindAFriend 
 
 ## RFs (Requisitos funcionais)
 
-- [ ] Deve ser possível cadastrar um pet
+- [x] Deve ser possível cadastrar um pet
 - [ ] Deve ser possível listar todos os pets disponíveis para adoção em uma cidade
 - [ ] Deve ser possível filtrar pets por suas características
 - [ ] Deve ser possível visualizar detalhes de um pet para adoção
-- [ ] Deve ser possível se cadastrar como uma ORG
+- [x] Deve ser possível se cadastrar como uma ORG
 - [ ] Deve ser possível realizar login como uma ORG
 
 ## RNs (Regras de negócio)
@@ -32,7 +32,7 @@ Nesse desafio desenvolveremos uma API para a adoção de animais, a FindAFriend 
 
 # RNFs (Requisitos não-funcionais)
 
-- [ ] A senha do usuário precisa estar criptografada;
+- [x] A senha do usuário precisa estar criptografada;
 - [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
