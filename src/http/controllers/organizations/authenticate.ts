@@ -43,6 +43,7 @@ export async function authenticate(request: FastifyRequest, reply: FastifyReply)
         token,
       });
   } catch (error) {
+    console.log(error);
     if (error instanceof InvalidCredentialsError) {
       return reply.status(409).send({ message: error.message });
     }

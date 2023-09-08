@@ -29,8 +29,6 @@ export class FetchPetByParamsUseCase {
       independenceLevel,
     });
 
-    console.log(pet);
-
     if (!pet || pet.length === 0) {
       throw new ResourceNotFoundError();
     }
