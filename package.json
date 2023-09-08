@@ -20,6 +20,7 @@
     "zod": "^3.22.2"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "@types/bcryptjs": "^2.4.3",
     "@types/node": "^20.5.9",
     "prisma": "^5.2.0",
